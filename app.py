@@ -1,3 +1,22 @@
+##################################################
+# 1. import Flask
+# from flask import Flask
+
+# 2. Create an app, being sure to pass __name__
+# app = Flask(__name__)
+
+# 3. Define what to do when a user goes to the index route
+# @app.route('/')
+# def hello_world():
+#     return 'Hello world'
+
+# 4. Run a Flask App (in TERMINAL):
+# conda activate PythonData
+# for Mac, run in command lines: export FLASK_APP=app.py
+# for Windows system run: set FLASK_APP=app.py
+# then: flask run
+##################################################
+
 # Set Up the Flask Weather App
 
 ## Import dependencies
@@ -45,11 +64,14 @@ def welcome():
     ''')
 
 # run in command: 
-## conda activate PythonData
-## install flask
-## export FLASK_APP=app.py
-## flask run
+    ## conda activate PythonData
+    ## install flask
+    ## export FLASK_APP=app.py
+    ## flask run
+    
 # http://127.0.0.1:5000/
+# OR
+# http://localhost:5000/
 
 ##########################################
 # Precipitation Route 9.5.3
@@ -75,7 +97,6 @@ def stations():
     stations = list(np.ravel(results))
     return jsonify(stations=stations)
 
-# http://localhost:5000/
 # http://127.0.0.1:5000/api/v1.0/stations
 
 ##########################################
@@ -120,25 +141,4 @@ def stats(start=None, end=None):
 # http://127.0.0.1:5000/api/v1.0/temp/2017-06-01/2017-06-30
     # {temps: [71,77.21989528795811,83]}
 
-
-
-
-
-##################################################
-# 1. import Flask
-# from flask import Flask
-
-# 2. Create an app, being sure to pass __name__
-# app = Flask(__name__)
-
-# 3. Define what to do when a user goes to the index route
-# @app.route('/')
-# def hello_world():
-#     return 'Hello world'
-
-# 4. Run a Flask App (in TERMINAL):
-# conda activate PythonData
-# for Mac, run in command lines: export FLASK_APP=app.py
-# for Windows system run: set FLASK_APP=app.py
-# then: flask run
 

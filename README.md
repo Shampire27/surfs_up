@@ -21,13 +21,12 @@ In the analysis, the main tools uesd for coding was Jupyter Nootbook and Visual 
 
 In the two deliverables, the weather statistics summary shows as below:
 
-***Summary Statistics for June***
+- ***Summary Statistics for June***
 
 ![Summary Statistics for June](Analysis/Summary_Statistics_for_June.png)
 
 
-
-***Summary Statistics for December***
+- ***Summary Statistics for December***
 
 ![Summary Statistics for December](Analysis/Summary_Statistics_for_December.png)
 
